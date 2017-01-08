@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: hmassignment1
+  host: hmassignment1
+  disk_quota: 1024M
+  services:
+  - hmassignment1-cloudantNoSQLDB
+  - hmassignment1-iotf-service
